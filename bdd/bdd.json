@@ -1,0 +1,41 @@
+
+{	
+	"proxmox": {
+	"serveur_ip" :"", 
+	"serveur_type":"", 
+	"serveur_os": "",
+	"ssh": "",
+	"topt": "",
+	"mdp":"",
+	"hostname":""
+	},
+
+	"vms": [
+		{
+			"vm_id": "100",
+			"serveur_ip": "192.168.1.21",
+			"serveur_type":"streaming video dédié jellyfin",
+			"cloudflare_tunnel_name": "jellyfin-tunnel",
+			"cloudflare_tunnel_id": "f483d0ac-c939-4182-ae90-810d7a31dd25",
+			"cloudflare_hostname": "jellyfin.poparnassus.fr",
+			"cloudflare_service": "http://127.0.0.1:8096",
+			
+			"os": "ubuntu_server",
+			"ssh": "on",
+			"topt": "on",
+			"mdp": "10331395000",
+			"hostname": "jellyfin",
+			"jellyfin_users": [
+				{
+				"id":"jellyfin",
+				"mdp":"2B-E5-09-21"
+				},
+				{
+				
+				"id":"famillepautcornillon",
+				"mdp": "25-M4-LP-78"
+				} 
+			]
+		}
+		]
+}
